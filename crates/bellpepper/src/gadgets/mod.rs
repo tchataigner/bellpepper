@@ -9,6 +9,8 @@ pub mod multipack;
 pub use bellpepper_core::num;
 pub mod sha256;
 pub mod uint32;
+pub mod sha3;
+mod unit;
 
 use bellpepper_core::SynthesisError;
 
